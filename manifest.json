@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Next Please",
+  "description": "Automatically clicks \"Next Video\" on any video-streaming website.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "play-icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ]
+}
